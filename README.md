@@ -1,3 +1,9 @@
+This is a quick fix of https://github.com/websterguy/pf1e-treasure-generator
+
+Corrected a malformed version number (`v9` instead of `9` in the minimum version number) in the manifest file.
+
+I will submit a proper pull request once I make sure it works properly.  
+
 # PF1E Treasure Generator for Foundry VTT
 
 ### Install
