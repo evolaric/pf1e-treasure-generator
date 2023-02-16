@@ -1,30 +1,40 @@
 {
-  "name":"pf1e-treasure-generator",
-  "title":"PF1e UE Treasure Generator",
-  "description":"Adds a treasure generator macro and rolltable compendium",
-  "version":"0.5",
-  "minimumCoreVersion":"9",
-  "compatibleCoreVersion":"9",
-  "library":"false",
-  "authors":[
+  "name": "pf1e-treasure-generator",
+  "title": "PF1e UE Treasure Generator",
+  "description": "Adds a treasure generator macro and rolltable compendium",
+  "version": "0.5",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "library": "false",
+  "authors": [
     {
-      "name":"websterguy",
-      "url":"https://github.com/websterguy/",
-      "discord":"websterguy#1136"
+      "name": "websterguy",
+      "url": "https://github.com/websterguy/",
+      "discord": "websterguy#1136"
     }
   ],
-  "packs":[
+  "packs": [
     {
-      "name":"tables",
-      "label":"Treasure Generator Roll Tables",
-      "path":"./packs/tables.db",
-      "type":"RollTable",
-      "package":"pf1e-treasure-generator"
+      "name": "tables",
+      "label": "Treasure Generator Roll Tables",
+      "path": "./packs/tables.db",
+      "type": "RollTable",
+      "package": "pf1e-treasure-generator"
     }
   ],
-  "system": ["pf1"],
-  "esmodules": ["./scripts/generator.js"],
-  "styles": ["./styles/treasuregen.css"],
-  "templates": ["./templates/encounter.html"],
-  "url":"https://github.com/evolaric/pf1e-treasure-generator"
+  "system": [
+    "pf1"
+  ],
+  "esmodules": [
+    "./scripts/generator.js"
+  ],
+  "styles": [
+    "./styles/treasuregen.css"
+  ],
+  "templates": [
+    "./templates/encounter.html"
+  ],
+  "url": "https://github.com/evolaric/pf1e-treasure-generator",
+  "manifest": "https://raw.githubusercontent.com/evolaric/pf1e-treasure-generator/main/module.json",
+  "download": "https://github.com/evolaric/pf1e-treasure-generator/archive/refs/tags/release.zip"
 }
